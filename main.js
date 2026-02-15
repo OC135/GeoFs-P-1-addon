@@ -75,8 +75,8 @@
         let btn = document.createElement("button");
         btn.id = "uh60-tab-btn";
         btn.className = "mdl-button mdl-js-button geofs-f-standard-ui";
-        btn.innerHTML = "UH60J ";
-        btn.style.color = "#F5C542";
+        btn.innerHTML = "P1 ";
+        btn.style.color = "#000000";
         btn.onclick = () => {
             let p = document.getElementById("uh60-panel");
             p.style.display = (p.style.display === "none") ? "block" : "none";
@@ -87,7 +87,7 @@
         panel.id = "uh60-panel";
         panel.style = "display:none; position:fixed; left:10px; bottom:80px; width:180px; background:rgba(0,0,0,0.9); color:white; padding:15px; border-radius:8px; z-index:10000; border:2px solid #F5C542;";
         panel.innerHTML = `
-            <h3 style="margin:0 0 10px 0; font-size:14px; text-align:center;">UH-60J</h3>
+            <h3 style="margin:0 0 10px 0; font-size:14px; text-align:center;">P-1</h3>
             <button id="toggle-uh60" style="width:100%; padding:10px; margin-bottom:10px; cursor:pointer; background:#444; color:white; border:none;">モデル表示：OFF</button>
             <hr style="border:0.5px solid #555;">
             <button class="skin-btn" data-skin="p1" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#333; color:white; border:1px solid #555;">P-1</button>
